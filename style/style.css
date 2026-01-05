@@ -70,7 +70,7 @@ body {
 header {
     margin-bottom: 70px;
 }
-header nav , .banner, .pillar-content , .vision-content, .opinion-content, .news-content {
+header nav , .banner, .pillar-content , .vision-content, .opinion-content, .news-content , .donate-content {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 70px;
@@ -261,4 +261,45 @@ header nav , .banner, .pillar-content , .vision-content, .opinion-content, .news
 display: flex;
 flex-direction: column;
 gap: 30px;
+}
+button {
+    cursor: pointer;
+}
+.donate-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+#donate .amonut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+.amonut h2  {
+    padding: 36px;
+    background-color: white;
+    border-radius: 15px;
+}
+.amonut h2:hover  {
+    background-color: var(--paimary);
+}
+#donate input  {
+    width: 50%;
+    text-align: center;
+    padding: 18px 36px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: white;
+    line-height: 21px;
+    border: none;
+    outline: none;
+}
+#donate input :placeholder-shown {
+    color: rgba(14, 14, 14, 0.3);
+
 }
