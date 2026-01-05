@@ -70,7 +70,7 @@ body {
 header {
     margin-bottom: 70px;
 }
-header nav , .banner, .pillar-content , .vision-content, .opinion-content, .news-content , .donate-content {
+header nav , .banner, .pillar-content , .vision-content, .opinion-content, .news-content , .donate-content, #sub {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 70px;
@@ -254,7 +254,6 @@ header nav , .banner, .pillar-content , .vision-content, .opinion-content, .news
     gap: 30px;
 }
 #news .photo img {
-    /* width: 100%; */
     border-radius: 22px;
 }
 #news .news-card, #news .news-content {
@@ -273,7 +272,7 @@ button {
     text-align: center;
     gap: 30px;
 }
-#donate .amonut {
+#donate .amonut , #sub .sub-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,4 +301,38 @@ button {
 #donate input :placeholder-shown {
     color: rgba(14, 14, 14, 0.3);
 
+}
+ #sub .sub-content {
+    width: 61%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+.sub-content form {
+    display: flex;
+    width: 100%;
+}
+#mail {
+    width: 80%;
+    padding: 16px 36px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+#submit {
+    border: none;
+    padding: 15px 30px;
+    width: 20%;
+    border-radius: 0;
+    text-align: center;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    
 }
